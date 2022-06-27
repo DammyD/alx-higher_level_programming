@@ -7,7 +7,7 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *new
+	listint_t *new;
 		listint_t *old;
 	new = list;
 	old = list;
@@ -23,7 +23,7 @@ int check_cycle(listint_t *list)
 			while (1)
 			{
 				new = old;
-				while (new->next != list && new-> != old)
+				while (new->next != list && new->next != old)
 				{
 					new = new->next;
 				}
