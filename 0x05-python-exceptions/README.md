@@ -1,4 +1,4 @@
-# project Tile: 0x05. Python - Exceptions
+# project Title: 0x05. Python - Exceptions
 # Resources
 # Read or watch:
 
