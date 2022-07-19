@@ -21,12 +21,12 @@ class Square:
 
     def my_print(self):
         """Method to print a Square with spaces"""
-        if (self.__size== 0):
+        if (self.__size == 0):
             print()
         else:
             for blank in range(self.position[1]):
                 print()
-                for rows in range(slef.__size):
+                for rows in range(self.__size):
                     print(" " * self.position[0], end='')
                     print("#" * self.__size)
 
@@ -57,6 +57,6 @@ class Square:
                 or (type(value[0] is not int) \
                 or (type(value[1] is not int) \
                 or (value[0] < 0) or (value[1] < 0):
-            raise (TypeError("position must be a tuple of 2 positive integers"))
+            raise TypeError("position must be a tuple of 2 positive integers")
         else:
             self.__position = value
