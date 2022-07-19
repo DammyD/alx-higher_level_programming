@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Create a Class Square with:
-- size, position private properties
+- size, position private propreties
 - method of area and method of print_square
 - getters & setters.
 """
@@ -26,9 +26,9 @@ class Square:
         else:
             for blank in range(self.position[1]):
                 print()
-                for rows in range(self.__size):
-                    print(" " * self.position[0], end='')
-                    print("#" * self.__size)
+            for rows in range(self.__size):
+                print(" " * self.position[0], end='')
+                print("#" * self.__size)
 
     @property
     def size(self):
@@ -41,21 +41,21 @@ class Square:
         if (type(value) is not int):
             raise (TypeError("size must be an integer"))
         elif (value < 0):
-            raise (ValueError("size must be >=0"))
+            raise (ValueError("size must be >= 0"))
         else:
             self.__size = value
 
     @property
-    def positions(self):
-        """Getter of position"""
+    def position(self):
+        """Getter of Position"""
         return (self.__position)
 
     @position.setter
     def position(self, value):
         """Setter of position"""
         if (len(value) != 2) or (type(value) is not tuple) \
-                or (type(value[0] is not int) \
-                or (type(value[1] is not int) \
+                or (type(value[0]) is not int) \
+                or (type(value[1]) is not int) \
                 or (value[0] < 0) or (value[1] < 0):
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
