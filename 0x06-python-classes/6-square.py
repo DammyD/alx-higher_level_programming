@@ -8,7 +8,7 @@ Create a Class Square with:
 
 
 class Square:
-    """Class - square"""
+    """Class - Square"""
 
     def __init__(self, size=0, position=(0, 0)):
         """Constructor of a Square with the size and position"""
@@ -38,7 +38,7 @@ class Square:
     @size.setter
     def size(self, value):
         """Setter for the size private attribute"""
-        if (type(vale) is not int):
+        if (type(value) is not int):
             raise (TypeError("size must be an integer"))
         elif (value < 0):
             raise (ValueError("size must be >=0"))
