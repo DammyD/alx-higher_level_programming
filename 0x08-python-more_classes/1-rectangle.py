@@ -2,7 +2,7 @@
 """This program define a class Rectangle with it attributes"""
 
 
-class Rectangle():
+class Rectangle:
     """
     A Rectangle Class with the private instance attributes width and height
     """
