@@ -2,7 +2,7 @@
 """This program define a class Rectangle with it attributes"""
 
 
-class Rectangle:
+class Rectangle():
     """
     A Rectangle Class with the private instance attributes width and height
     """
@@ -10,9 +10,9 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """
         Constructor of the class Rectangle
-            Args:
-                - width (default = 0): int
-                - height (default = 0): int
+          Args:
+            - width (default = 0): int
+            - heigth (default = 0): int
         """
         self.height = height
         self.width = width
@@ -26,14 +26,11 @@ class Rectangle:
     def width(self, value):
         """
         Getter of the property value
-            Args:
-                - value: int
+          Args:
+            - value: int
         """
         if not isinstance(value, int):
             raise TypeError('width must be an integer')
-
-        if value < 0:
-            raise ValueError('width must be integer')
 
         if value < 0:
             raise ValueError('width must be >= 0')
@@ -49,8 +46,8 @@ class Rectangle:
     def height(self, value):
         """
         Getter of the property value
-            Args:
-                - value: int
+          Args:
+            - value: int
         """
         if not isinstance(value, int):
             raise TypeError('height must be an integer')
