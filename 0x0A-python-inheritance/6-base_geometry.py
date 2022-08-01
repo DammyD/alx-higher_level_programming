@@ -9,7 +9,6 @@ class BaseGeometry():
     This class contain a method not implemented
     """
 
-
     def area(self):
         """
         This function raise an exception
