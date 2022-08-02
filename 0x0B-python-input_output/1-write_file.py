@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-A script that writes to a file and returns the number of characters
+A script that writes to a file
 """
 
 def write_file(filename="", text=""):
