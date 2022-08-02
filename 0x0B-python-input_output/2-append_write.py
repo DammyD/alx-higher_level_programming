@@ -6,7 +6,7 @@ A script that appends a string
 
 def append_write(filename="", text=""):
     """
-    Returns the number of character
+    Function returns the...
     """
     count = 0
     with open(filename, 'a', encoding="UTF-8") as f:
