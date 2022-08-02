@@ -3,7 +3,6 @@
 A script that writes a file and returns the number of characters
 """
 
-
 def write_file(filename="", text=""):
     """ Function returns the no of character written to filename"""
     count = 0
