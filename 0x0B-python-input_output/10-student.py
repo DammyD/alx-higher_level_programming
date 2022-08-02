@@ -2,7 +2,7 @@
 """class module"""
 
 
-class student:
+class Student:
     """Represents a student"""
 
     def __init__(self, first_name, last_name, age):
