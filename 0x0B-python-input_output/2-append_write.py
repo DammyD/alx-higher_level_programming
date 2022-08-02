@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-A script that appends a string at the end of a text file
+A script that appends a string
 """
 
 
