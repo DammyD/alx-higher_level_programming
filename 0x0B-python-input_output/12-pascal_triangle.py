@@ -25,6 +25,6 @@ def pascal_triangle(n):
         for j in range(1, len(paascal)):
             new_list.append(pascal[i][j - 1] + pascal[i][j])
         new_list.append(1)
-        pascal.aappend(new_list)
+        pascal.append(new_list)
 
     return (pascal)
