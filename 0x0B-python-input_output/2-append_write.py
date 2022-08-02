@@ -9,7 +9,7 @@ def append_write(filename="", text=""):
     Function returns the no of char added
     """
     count = 0
-    with open(filename, 'a', encoding="UTF-8") as f:
-        count = f.write(text)
+    with open(filename, 'a', encoding="UTF-8") as file:
+        count = file.write(text)
 
             return count
