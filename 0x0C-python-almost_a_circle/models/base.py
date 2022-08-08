@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This program is a class forother classes"""
+"""This program is a Base class for other classes"""
 
 
 class Base:
