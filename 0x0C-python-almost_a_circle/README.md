@@ -4,7 +4,7 @@ The AirBnB project is a big part of the Higher level curriculum. This project wi
 
 In this project, you will review everything about Python:
 
-I- mport
+- Import
 - Exceptions
 - Class
 - Private attribute
@@ -14,7 +14,7 @@ I- mport
 - Inheritance
 - Unittest
 - Read/Write file
-You will also learn about:
+# You will also learn about:
 
 - args and kwargs
 - Serialization/Deserialization
