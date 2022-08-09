@@ -98,7 +98,6 @@ class Rectangle(Base):
                 if key in keys:
                     setattr(self, key, val)
 
-
     def to_dictionary(self):
         """Creates a dictionary representation"""
         result = {
@@ -108,5 +107,4 @@ class Rectangle(Base):
                 'x': self.x,
                 'y': self.y
             }
-            return result
-
+        return result
