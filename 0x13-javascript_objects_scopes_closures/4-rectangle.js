@@ -7,6 +7,12 @@ class Rectangle {
     }
   }
 
+  print () {
+    for (let i = 0; i < this.length; i++) {
+      console('X'.repeat(this.width));
+    }
+  }
+
   rotate () {
     const tmp = this.height;
     this.height = this.width;
