@@ -27,5 +27,5 @@ if __name__ == '__main__':
     for row in query_rows:
         print(row)
 
-        db.close()
-        connection.close()
+    db.close()
+    connection.close()
