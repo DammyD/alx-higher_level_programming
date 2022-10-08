@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""
-Links class to table in database
+"""Start link class to table in database
 """
 import sys
-from model_state import Base, Stae
+from model_state import Base, State
 
 from sqlalchemy import (create_engine)
 
